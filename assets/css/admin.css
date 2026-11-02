@@ -1,0 +1,237 @@
+/* NIM: 2203010233, nama: Ihsan Musyaffa, topik: Sistem Pendukung Keputusan Pemilihan Konsentrasi */
+/* Gaya bersama seluruh halaman admin */
+.admin-login-page {
+    background-color: #f8f9fa;
+}
+
+.admin-dashboard-page,
+.admin-rules-page {
+    background-color: #f4f6f9;
+    font-size: 0.85rem;
+}
+
+.navbar-custom {
+    min-height: 55px;
+    background-color: #2c3136 !important;
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar-custom .nav-link {
+    margin-left: 10px;
+    color: #d1d5db !important;
+    font-size: 0.85rem;
+}
+
+.navbar-custom .nav-link.aktif,
+.navbar-custom .nav-link:hover {
+    color: #fff !important;
+}
+
+.navbar-custom .btn-logout {
+    padding: 4px 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    background-color: transparent;
+    font-size: 0.8rem;
+}
+
+.navbar-custom .btn-logout:hover {
+    color: #2c3136;
+    background-color: #fff;
+}
+
+.admin-login-page .login-container {
+    min-height: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 360px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.login-card .card-header {
+    padding: 15px 10px;
+    border: 0;
+    border-radius: 6px 6px 0 0;
+    color: #fff;
+    background-color: #0d6efd;
+    text-align: center;
+}
+
+.login-card .card-header h1 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.login-card .card-body {
+    padding: 20px 25px;
+}
+
+.login-card .form-label {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.login-card .form-control {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.login-card .form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 9px 12px;
+    border-color: #0d6efd;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #0d6efd;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.btn-login:hover {
+    background-color: #0b5ed7;
+}
+
+.login-card .card-footer {
+    padding: 12px;
+    border-top: 1px solid #dee2e6;
+    border-radius: 0 0 6px 6px;
+    background-color: #f8f9fa;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.login-card .card-footer a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.login-card .card-footer a:hover {
+    text-decoration: underline;
+}
+
+.admin-login-page .alert-danger {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.admin-rules-page .alert-custom {
+    border-color: #b6effb;
+    border-radius: 6px;
+    color: #055160;
+    background-color: #cff4fc;
+    font-size: 0.85rem;
+}
+
+.admin-rules-page .card-table,
+.admin-dashboard-page .card-table {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.admin-rules-page .card-table .card-header,
+.admin-dashboard-page .card-table .card-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+}
+
+.admin-rules-page .table th,
+.admin-dashboard-page .table th {
+    border-bottom: 2px solid #eee;
+    color: #333;
+    background-color: #fff;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.admin-rules-page .table td,
+.admin-dashboard-page .table td {
+    vertical-align: middle;
+    font-size: 0.85rem;
+}
+
+.admin-rules-page .badge-id,
+.admin-rules-page .badge-output {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #6c757d;
+    font-weight: 500;
+}
+
+.admin-rules-page .badge-output {
+    padding: 5px 8px;
+}
+
+.admin-rules-page .btn-delete {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #dc3545;
+    transition: 0.2s;
+}
+
+.admin-rules-page .btn-delete:hover {
+    color: #fff;
+    background-color: #bb2d3b;
+}
+
+.admin-rules-page .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 575.98px) {
+    .navbar-custom .navbar-brand {
+        max-width: calc(100% - 3.5rem);
+        font-size: 0.9rem;
+    }
+
+    .navbar-custom .navbar-collapse {
+        padding-bottom: 0.5rem;
+    }
+
+    .navbar-custom .nav-link {
+        margin-left: 0;
+    }
+
+    .admin-rules-page .site-main > .container-fluid > .d-flex {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+
+    .admin-rules-page .site-main > .container-fluid > .d-flex .btn {
+        max-width: 100%;
+        white-space: normal;
+    }
+
+    .login-card .card-body {
+        padding: 1.25rem;
+    }
+}

@@ -1,0 +1,12 @@
+.vscode/
+.env
+.env.*
+custom.ini
+import_db.php
+debug_data.php
+debug_schema.php
+check_driver.php
+check_aturan_schema.php
+migrate_names.php
+database/spk_fuzzy.sql
+*.log
